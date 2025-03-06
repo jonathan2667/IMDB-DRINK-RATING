@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IMDB-DRINK-RATING.props" />
+</Project>

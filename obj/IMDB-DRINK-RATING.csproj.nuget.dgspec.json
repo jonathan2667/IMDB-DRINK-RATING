@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mogovanjonathan/Desktop/IMDB-DRINK-RATING/IMDB-DRINK-RATING.csproj": {}
+    "E:\\Semestrul4\\ISS\\IMDB-DRINK-RATING\\IMDB-DRINK-RATING.csproj": {}
   },
   "projects": {
-    "/Users/mogovanjonathan/Desktop/IMDB-DRINK-RATING/IMDB-DRINK-RATING.csproj": {
+    "E:\\Semestrul4\\ISS\\IMDB-DRINK-RATING\\IMDB-DRINK-RATING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mogovanjonathan/Desktop/IMDB-DRINK-RATING/IMDB-DRINK-RATING.csproj",
+        "projectUniqueName": "E:\\Semestrul4\\ISS\\IMDB-DRINK-RATING\\IMDB-DRINK-RATING.csproj",
         "projectName": "IMDB-DRINK-RATING",
-        "projectPath": "/Users/mogovanjonathan/Desktop/IMDB-DRINK-RATING/IMDB-DRINK-RATING.csproj",
-        "packagesPath": "/Users/mogovanjonathan/.nuget/packages/",
-        "outputPath": "/Users/mogovanjonathan/Desktop/IMDB-DRINK-RATING/obj/",
+        "projectPath": "E:\\Semestrul4\\ISS\\IMDB-DRINK-RATING\\IMDB-DRINK-RATING.csproj",
+        "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
+        "outputPath": "E:\\Semestrul4\\ISS\\IMDB-DRINK-RATING\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mogovanjonathan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
