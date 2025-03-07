@@ -1,7 +1,46 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Reviews and Ratings</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@* app.css for styles *@
+
+<h1 class="title-reviews" align="center">Reviews and Ratings</h1>
+
+    @*exemplu tabel*@
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Rating</th>
+                    <th>Review</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var review in reviews){
+                    <tr>
+                        <td>@review.Name</td>
+                        <td>@review.Rating</td>
+                        <td>@review.ReviewText</td>
+                    </tr>
+                }                
+            </tbody>
+        </table>
+    </div>
+
+    @code {
+
+        //clasa Review in "Models" folder
+        
+        private Review review1 = new Review { Name = "Product1", Rating = 5, ReviewText = "Great product!" };
+        private Review review2 = new Review { Name = "Product2", Rating = 4, ReviewText = "Good product!" };
+
+        private Review[] reviews;
+        //exemplu de initializare a reviews
+        protected override void OnInitialized()
+        {
+            reviews = new Review[] { review1, review2 };
+        }
+        //...
+    }
